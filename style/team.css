@@ -1,0 +1,124 @@
+@import url(font.css);
+@import url(reset.css);
+@import url(common-styles.css);
+
+.additions_content{
+    width: 1366px;
+    padding: 56px 0px 0px 56px ;
+}
+.first_line_users{
+    height: 325px; 
+    margin-bottom: 25px;
+}
+
+.users_box::after{
+    content: "";
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -40px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.users_box:hover::after{
+    background-position: center;
+    width: 82px;
+    height: 76px;
+    background-size: 30px 33px;
+    background-image: url(../images/Vector.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.users_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-right: 50px;
+    background: #FFFFFF;
+    border-radius: 41px;
+    transition-property:background-color ;
+    transition-duration: 0.7s; 
+}
+
+.users_box:hover{
+    background-color:#2785F7;  
+} 
+
+.mg_img_first_user{
+    margin:50px 0 15px 0;
+}
+
+.margin_image-2{
+    margin: 20px 0 10px 0;
+}
+
+.box_image_user{
+    width: 100px;
+    height: 100px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.mg_text{
+    margin-bottom: 32px;
+}
+
+.joint_styles{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #C5C5C5;
+    display: flex;
+    justify-content: space-between;
+    width: 1297px; 
+}
+
+.style_text_h1{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+}
+
+.img_user_1{
+    background-image: url(../images/1.jpg);
+}
+
+.img_user_2{
+    background-image: url(../images/2.jpg);
+}
+
+.img_user_3{
+    background-image: url(../images/3.jpg);
+}
+
+.img_user_4{
+    background-image: url(../images//4.jpg);
+}
+
+.second_line_users{
+    height: 278px; 
+}
+
+.img_user_5{
+    background-image:url(../images/7.jpg) ;
+}
+
+.img_user_6{
+    background-image:url(../images/6.jpg) ;
+}
+
+.img_user_7{
+    background-image:url(../images/5.jpg) ;
+}
+
+.img_user_8{
+    background-image:url(../images/8.jpg) ;
+}

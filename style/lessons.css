@@ -1,0 +1,101 @@
+@import url(font.css);
+@import url(reset.css);
+@import url(common-styles.css);
+
+.font_and_additionsContent{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #323232;
+    
+    width: 1366px;
+    padding: 138px 86px 0px 86px ;
+
+}
+
+.item{
+    margin: 0 auto;
+    width: 1090px;
+    height: 40px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.width_text_box{
+    width: 138px;
+}
+
+.box_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:  27px;
+    width: 1194px;
+    height: 405px ;
+}
+
+
+.father_boxs{
+    border-radius: 21px;
+    width: 1194px;
+    padding-top: 18px;
+    padding-bottom: 6px;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    transition-property:background-color ;
+    transition-duration: 0.7s;
+}
+
+.father_boxs:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.mg_HTMLText{
+    margin: 0 100px 0 100px;
+}
+
+.box_download{
+    width: 35px;
+    height: 35px;
+    margin: 0 93px 0 162px;
+    border-radius: 11px;
+    border: 1px solid silver;
+    transition-property: background-color;
+    transition-duration: 0.7s;
+}
+
+.box_download:hover{
+    cursor: pointer;
+    background: #2684F7;
+}
+
+.img_icon{
+    margin: 5px auto;
+    width: 25px;
+    height: 25px;
+    background-size: 25px 25px;
+    background-image: url(../images/icons8-скачать-48.png);
+    background-repeat: no-repeat;
+}
+
+.iconCheck{
+    border-radius: 25%;
+    border: 2px solid rgb(175, 172, 172);
+    appearance: none;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    margin:0 160px 0 95px ;
+}
+.iconCheck:checked {
+    background-color: #5aa1f8;
+    background-repeat: no-repeat;
+    background-size: 28px 28px;
+    background-image: url(../images/icons8-tick-96.png);
+}

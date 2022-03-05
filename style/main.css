@@ -1,0 +1,184 @@
+@import url(font.css);
+@import url(reset.css);
+@import url(common-styles.css);
+
+.font_and_additionsContent{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #B1B1B1;
+
+    display: flex;
+    width: 1404px
+}
+.side{
+    width: 105px;
+    background-color: #FEFEFE;
+    border-radius: 30px;
+    margin:171px 30px 135px 23px;
+}
+
+.underMenu{   
+    position: relative;
+    width: 67px;
+    height: 62px;
+    margin: 20px 20px;
+    border-radius: 15px;
+    transition-property: width, background-color;
+    transition-duration: 0.7s;
+    display: flex;
+    
+}
+.active{
+    background-color: #2785F7;
+
+}
+a img {
+    width: 35px;
+    height: 35px;
+    margin: 14px 15px;
+}
+.underMenu:hover{
+    width: 150px;
+    background-color: #2785F7;
+    
+}
+.underMenu::after{
+    z-index: -1;
+    margin: 23px 5px;
+    color: white;
+}
+.underMenu:hover::after{
+    z-index: 2;
+    transition-duration: 2s;
+}
+
+.project_underMenu::after{
+    content: "Project";
+
+}
+.account::after{
+    content: "Account";
+}
+.groups::after{
+    content: "Groups";
+}
+.cloud::after{
+    content: "Cloud";
+}
+.setting::after{
+    content: "Setting";
+}
+
+.rectangle_boxs{
+    margin-top: 80px;
+    margin-right: 34px;
+    width: 1212px;
+    height: 574px;
+}
+
+.project_company{
+    display: flex;
+    height: 130px; 
+}
+
+.size_boxText{
+    width: 227px;
+    height: 66px;
+    line-height: 25px;
+}
+
+.project{
+    border-radius: 30px;
+    margin-right: 37px;
+    height: 130px;
+    width: 592px;
+    background-color:#FEFEFE;
+    padding: 32px 421px 32px 42px ;
+}
+
+.sizeText{
+    font-size: 24px;
+    line-height: 34px;
+    color: black;
+}
+
+.company{
+    border-radius: 30px;
+    height: 130px;
+    width: 583px;
+    background: #FEFEFE;
+    padding: 32px 314px 32px 42px ;
+}
+
+.wrapper_rectangle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+    height: 410px;
+}
+
+.wrapper_description_team{
+    height: 410px;
+    width: 732px;
+}
+
+.size_boxText_description{
+    width: 624px; ;
+    height: 126px; ;
+}
+
+.rectangle_description{
+    line-height: 160%;
+    padding: 34px 66px 34px 42px ;
+}
+.box_description_team{
+    border-radius: 30px;
+    width: 732px;
+    height: 194px;
+    background: #FEFEFE;
+}
+
+.rectangle_team{
+    display: flex;
+    margin-top: 22px;
+}
+
+.image_team{
+    height: 138.26px;
+    margin: 28px 0 27.74px 42px;
+    background-image: url(../images/team.jpg) ;
+    
+}
+.bg_img{ 
+    width: 120px;
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+}
+.size_boxText_team{
+    margin: 34px 26px 63px 49px;
+    width: 495px;
+    height: 97px;
+    line-height: 160%;
+}
+
+.rectangle_dataPortability{
+    padding: 34px 39px 38px 42px;
+    border-radius: 30px;
+    width: 447px;
+    height: 410px;
+    background: #FEFEFE;
+}
+
+.image_data{
+    margin-bottom: 24.68px;
+    height: 115.32px;
+    background-image: url(../images/data.jpg) ;
+}
+
+.size_boxText_data{
+    width: 366px;
+    height: 198px;
+    line-height: 180%;
+}
